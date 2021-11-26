@@ -27,15 +27,31 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  .img-rotate-profile:hover {
+    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transition: .3s ease;
+  }
+  .img-rotate:hover {
+    transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    transition: .3s ease;
+  }
 </style>
 <main class="container mt-4 mb-5">
-  <h2>CURRICULUM</h2>
+  <h2 class="img-rotate">CURRICULUM</h2>
   <div class="row">
     <div class="col-6">
       <div class="card">
         <div class="card-body">
           <div class="text-center mb-4">
-            <img src="static/img/profile.png" class="img-zoom" width="30%">
+            <img src="static/img/profile.png" class="img-rotate-profile" width="30%">
             <h3>María Morales</h3>
           </div>
           <p align="justify">
@@ -45,7 +61,7 @@
       </div>
       <div class="card mt-3">
         <div class="card-body">
-          <h5>CONOCIMIENTOS Y HABILIDADES</h5>
+          <h5 class="img-rotate">CONOCIMIENTOS Y HABILIDADES</h5>
           <p align="justify">
             <ul>
               <li class="mb-3">
@@ -79,7 +95,7 @@
       </div>
       <div class="card mt-3">
         <div class="card-body">
-          <h5>HISTORIAL LABORAL</h5>
+          <h5 class="img-rotate">HISTORIAL LABORAL</h5>
           <p align="justify">
             <ul>
               <li class="mb-3">
@@ -105,7 +121,7 @@
     <div class="col-6">
       <div class="card">
         <div class="card-body">
-          <h5>DATOS PERSONALES</h5>
+          <h5 class="img-rotate">DATOS PERSONALES</h5>
           <p align="justify">
             <ul>
               <li class="mb-3"><b>Nombres:</b> María Auxiliadora</li>
@@ -122,7 +138,7 @@
       </div>
       <div class="card mt-3">
         <div class="card-body">
-          <h5>PROYECTOS</h5>
+          <h5 class="img-rotate">PROYECTOS</h5>
           <div class="mb-3">
             <b>2020</b>
           </div>
@@ -172,7 +188,7 @@
       </div>
       <div class="card mt-3">
         <div class="card-body">
-          <h5>IDIOMAS</h5>
+          <h5 class="img-rotate">IDIOMAS</h5>
           <p align="justify">
             <ul>
               <li class="mb-3">Español (Lengua materna).</li>
