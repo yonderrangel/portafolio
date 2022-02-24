@@ -1,3 +1,3 @@
-## Portafolio Digital de María Morales
+## Portafolio Digital de Yonder Rangel
 
-<a href="https://mariauxi.github.io/portafolio/index">https://mariauxi.github.io/portafolio/index</a>
+<a href="https://yonderrangel.github.io/portafolio/index">https://yonderrangel.github.io/portafolio/index</a>
